@@ -7,14 +7,12 @@ int getfibrec(int n) {
     int fibn=0;
 
     if (n == 0) {
-        fibn=0;
+        return 0;
     }
     else if (n == 1) {
-        fibn= 1;
-    }else {
-        fibn=getfibrec(n-1)+getfibrec(n-2);
-        
+        return  1;
     }
+    fibn=getfibrec(n-1)+getfibrec(n-2);
     return fibn;
   
 }
