@@ -13,7 +13,7 @@ int get_fib_recursive(int n) {
     }
   
 
-    return get_fib_recursive(n - 1) + get_fib_recursive(n - 2);
+    ;
   
   
 }
